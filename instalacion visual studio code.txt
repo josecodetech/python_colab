@@ -1,0 +1,109 @@
+Puedes ver cómo instalar Visual Studio Code en el siguiente enlace:
+
+👉 instalacion visual studio code
+
+Aunque en este curso no es necesario, algunas clases las realizare con Visual Studio,para familiarizarnos con este entorno de desarrollo.Algunas clases se entienden mejor con este IDE🚀
+
+1. Instalación de Python en Windows
+
+Descargar Python:
+
+Ve a la página oficial de descargas de Python: python.org/downloads
+
+Selecciona la última versión estable de Python para Windows y haz clic en el botón "Download Python X.X.X".
+
+Ejecutar el instalador:
+
+Una vez descargado el instalador, ejecútalo.
+
+En la primera ventana, asegúrate de marcar la casilla que dice "Add Python X.X to PATH". Esto es importante para que puedas ejecutar Python desde la línea de comandos.
+
+Luego, haz clic en "Install Now" para comenzar la instalación.
+
+Verificar la instalación:
+
+Abre la terminal de comandos (cmd) o PowerShell.
+
+Escribe python --version y presiona Enter.
+
+Deberías ver la versión de Python que acabas de instalar.
+
+2. Instalación de Visual Studio Code (VS Code)
+
+Descargar VS Code:
+
+Visita la página oficial de Visual Studio Code: code.visualstudio.com
+
+Haz clic en "Download for Windows" para descargar el instalador.
+
+Instalar VS Code:
+
+Ejecuta el instalador descargado.
+
+Acepta los términos y condiciones, y sigue las instrucciones del asistente de instalación.
+
+Durante la instalación, te recomiendo marcar las siguientes opciones:
+
+"Add to PATH (available after restart)"
+
+"Register Code as an editor for supported file types"
+
+Iniciar VS Code:
+
+Una vez instalada la aplicación, ábrela desde el menú de inicio o desde el icono en el escritorio.
+
+3. Instalar Extensiones Básicas para Python en VS Code
+
+Instalar la extensión de Python:
+
+Abre Visual Studio Code.
+
+Ve al panel de extensiones haciendo clic en el ícono de cuadrado dividido en cuatro en la barra lateral izquierda o presiona Ctrl + Shift + X.
+
+En el campo de búsqueda, escribe "Python".
+
+Selecciona la extensión llamada "Python" de Microsoft y haz clic en "Install".
+
+Instalar Pylint (linter para Python):
+
+En el mismo panel de extensiones, busca "Pylint".
+
+Selecciona la extensión y haz clic en "Install".
+
+Esta herramienta te ayudará a mejorar la calidad del código, señalando errores y sugerencias de estilo.
+
+Instalar Jupyter (opcional, pero recomendado si planeas trabajar con Notebooks):
+
+Busca la extensión llamada "Jupyter" en el panel de extensiones.
+
+Instálala haciendo clic en "Install".
+
+Esto te permitirá trabajar con Jupyter Notebooks directamente en VS Code.
+
+4. Configurar VS Code para Python
+
+Seleccionar el intérprete de Python:
+
+Abre una carpeta o un archivo .py en VS Code.
+
+Presiona Ctrl + Shift + P para abrir la paleta de comandos.
+
+Escribe y selecciona "Python: Select Interpreter".
+
+Elige la versión de Python que instalaste.
+
+Configurar Pylint:
+
+Si es la primera vez que abres un proyecto de Python, VS Code te pedirá instalar Pylint.
+
+Acepta y sigue las instrucciones para la instalación.
+
+5. Verificación de Configuración
+
+Crear y ejecutar un archivo Python:
+
+Crea un nuevo archivo con la extensión .py en VS Code.
+
+Escribe un código sencillo, como print("Hola, mundo!").
+
+Guarda el archivo y luego ejecútalo usando la terminal integrada (Ctrl + \ `).
